@@ -1,0 +1,68 @@
+/* For search page hw 11 */
+
+/* flex parent */
+.navbar {
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    float: right
+}
+
+/* flex child */
+
+.btn {
+	color: #000000;
+	font-family: Avenir;
+	font-size: 22px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 20px;
+    text
+}
+
+h1 {
+	height: 66px;
+	width: 146px;
+	color: #000000;
+	font-family: Avenir;
+	font-size: 48px;
+	font-weight: 300;
+    line-height: 66px;
+    margin: auto;
+    padding: 80px;
+    font-weight: bold;
+}
+
+/* this is the search bar and button */
+/* this is my flex parent */
+.search {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;
+    margin: auto;
+}
+/* child */
+.searchBar {
+	height: 93px;
+    width: 878px;
+	border: 2px solid #000000;
+	border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 2.5em;
+    padding: 12px 20px;
+    margin: 20px;
+    
+}
+/* child */
+.searchButton {
+	height: 93px;
+	width: 229px;
+	border-radius: 8px;
+    background-color: #211674;
+    color: white;
+    display: inline-block;
+    font-size: 2.5em;
+}
